@@ -64,7 +64,7 @@ jobs:
           github_token: ${{ secrets.GH_TOKEN }}
           repository: ${{ secrets.GH_PATH }}
           directory: tvspider-js
-          branch: js
+          branch: .
           force: true
         env:
           GITHUB_ACTOR: ${{ secrets.GH_ACTOR }}
@@ -103,7 +103,7 @@ jobs:
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           repository: ${{ secrets.GH_PATH }}
-          directory: tvspider-nodejs
+          directory: .
           branch: dist
           force: true
         env:
@@ -145,7 +145,7 @@ jobs:
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           repository: ${{ secrets.GH_PATH }}
-          directory: tvspider
+          directory: .
           branch: 18_dist
           force: true
         env:
