@@ -63,8 +63,8 @@ jobs:
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           repository: ${{ secrets.GH_PATH }}
-          directory: tvspider-js
-          branch: .
+          directory: .
+          branch: js
           force: true
         env:
           GITHUB_ACTOR: ${{ secrets.GH_ACTOR }}
